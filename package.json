@@ -1,0 +1,16 @@
+{
+  "name": "octopus-game",
+  "version": "1.0.0",
+  "description": "Ocean-themed math game with TypeScript",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./",
+    "tsc": "tsc",
+    "dev": "parcel index.html --open"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^4.5.5"
+  }
+}
